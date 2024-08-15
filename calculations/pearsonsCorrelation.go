@@ -24,8 +24,9 @@ func PearsonsCorrelationCoefficient(y []float64) float64 {
 	}
 
 	// coefficient
-	rootXy := math.Sqrt(squareX * squareY)
-
+	rootX := math.Sqrt(squareX)
+	rootY := math.Sqrt(squareY)
+	rootXy := rootX * rootY
 	if rootXy == 0 {
 		return 0
 	}
