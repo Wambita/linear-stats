@@ -72,14 +72,12 @@ Pearson Correlation Coefficient: 0.9876543210
 
 ```sh
 
-go build -o  linear-stats main.go
+go build -o  linear-stats .
 ```
-
 
 2.After building the executable, run it as:
 
 ```sh
-
     ./linear-stats data.txt
 ```
 ## Implementation
