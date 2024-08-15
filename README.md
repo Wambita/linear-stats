@@ -109,7 +109,7 @@ go build -o  linear-stats main.go
 
 #### ReadFile
 - Purpose: Reads numeric data from a file and returns it as a slice of float64.
-- Signature: func readData(filename string) ([]float64, error)
+- Signature: func ReadFile(filename string) ([]float64, error)
 - Description: Opens the file, reads each line, converts it to float64, and returns a slice of these values.
 
 #### main
@@ -122,8 +122,9 @@ This project help you learn about
 
 - Statistical and Probabilities Calculations 
 
- + [Linear Regression Line]('https://en.wikipedia.org/wiki/Linear_regression')
- + [Pearson Correlation Coeffeicient]('https://en.wikipedia.org/wiki/Pearson_correlation_coefficient')
+ [Linear Regression Line]('https://en.wikipedia.org/wiki/Linear_regression')
+
+ [Pearson Correlation Coeffeicient]('https://en.wikipedia.org/wiki/Pearson_correlation_coefficient')
 
 
 ## Contributions
@@ -132,7 +133,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE]('LICENSE') file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
 
