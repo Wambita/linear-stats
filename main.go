@@ -23,8 +23,11 @@ func main() {
 	m, c := calculations.LinearRegression(numslice)
 	correlation := calculations.PearsonsCorrelationCoefficient(numslice)
 
-	fmt.Printf("Linear Regression Line: y = %fx + %f\n", m, c)
-	fmt.Printf("Pearson Correlation Coefficient: %f\n", correlation)
-	// Linear Regression Line: y = <value>x + <value>
-	// Pearson Correlation Coefficient: <value>
+	// format values to required decimal places
+	mformatted := fmt.Sprintf("%.*f", 6, m)
+	cformatted := fmt.Sprintf("%.*f", 6, c)
+	correlationFormatted := fmt.Sprintf("%.*f", 10, correlation)
+
+	fmt.Printf("Linear Regression Line: y = %sx + %s\n", mformatted, cformatted)
+	fmt.Printf("Pearson Correlation Coefficient: %s\n", correlationFormatted)
 }
