@@ -122,9 +122,9 @@ This project help you learn about
 
 - Statistical and Probabilities Calculations 
 
- [Linear Regression Line]('https://en.wikipedia.org/wiki/Linear_regression')
+  - [Linear Regression Line](https://en.wikipedia.org/wiki/Linear_regression)
 
- [Pearson Correlation Coeffeicient]('https://en.wikipedia.org/wiki/Pearson_correlation_coefficient')
+  - [Pearson Correlation Coeffeicient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 
 
 ## Contributions
